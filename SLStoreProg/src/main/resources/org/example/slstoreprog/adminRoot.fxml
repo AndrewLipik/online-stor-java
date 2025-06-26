@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="adminRoot" fx:id="adminRoot" prefHeight="999.0" prefWidth="1900.0" stylesheets="@../slstoreprog/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.slstoreprog.AdminRootController">
+   <children>
+      <Label layoutX="-124.0" prefHeight="292.0" prefWidth="2031.0" style="-fx-background-color: black;" />
+      <ImageView fitHeight="238.0" fitWidth="520.0" layoutX="693.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ei_1705822974519-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutY="290.0" prefHeight="709.0" prefWidth="1907.0" style="-fx-background-color: #18171a;" />
+      <TextField id="entry1" fx:id="entry1" layoutX="288.0" layoutY="311.0" prefHeight="41.0" prefWidth="506.0" promptText="Модель..." style="-fx-background-color: #18171a;" AnchorPane.leftAnchor="288.0" AnchorPane.rightAnchor="1112.0">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></TextField>
+      <TextField id="entry2" fx:id="entry2" layoutX="1096.0" layoutY="311.0" prefHeight="41.0" prefWidth="529.0" promptText="Цена..." style="-fx-background-color: #18171a;" AnchorPane.leftAnchor="1096.0" AnchorPane.rightAnchor="281.0">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></TextField>
+      <TextField id="entry3" fx:id="entry3" layoutX="1096.0" layoutY="399.0" prefHeight="41.0" prefWidth="529.0" promptText="Номер продавца..." style="-fx-background-color: #18171a;" AnchorPane.leftAnchor="1096.0" AnchorPane.rightAnchor="281.0">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></TextField>
+      <Button fx:id="btnPictureGadget" layoutX="877.0" layoutY="546.0" mnemonicParsing="false" onMouseClicked="#btnPictureGadget" prefHeight="60.0" prefWidth="278.0" text="Выбрать фото" textFill="WHITE" AnchorPane.leftAnchor="810.0" AnchorPane.rightAnchor="810.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button id="btnSave" fx:id="btnSave" layoutX="751.0" layoutY="849.0" mnemonicParsing="false" onMouseClicked="#btnSave" prefHeight="60.0" prefWidth="472.0" text="Сохранить" textFill="WHITE" AnchorPane.leftAnchor="700.0" AnchorPane.rightAnchor="700.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Button>
+      <Button fx:id="btnUsers" layoutX="861.0" layoutY="190.0" mnemonicParsing="false" onMouseClicked="#btnUsers" prefHeight="49.0" prefWidth="183.0" style="-fx-background-color: black;" text="База данных" AnchorPane.leftAnchor="861.0" AnchorPane.rightAnchor="860.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="btnCloseAdminRoot" layoutX="721.0" layoutY="945.0" mnemonicParsing="false" onMouseClicked="#btnCloseAdminRoot" prefHeight="41.0" prefWidth="349.0" style="-fx-background-color: #18171a;" text="Закрыть" AnchorPane.leftAnchor="800.0" AnchorPane.rightAnchor="800.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <RadioButton fx:id="rb" layoutX="912.0" layoutY="366.0" mnemonicParsing="false" text="Новый" textFill="#878995">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </RadioButton>
+      <ComboBox id="adminCombo" fx:id="adminCombo" editable="true" layoutX="288.0" layoutY="391.0" prefHeight="41.0" prefWidth="529.0" promptText="Цвет" AnchorPane.leftAnchor="288.0" AnchorPane.rightAnchor="1089.0" />
+      <TextField id="entry4" fx:id="entry4" layoutX="281.0" layoutY="721.0" prefHeight="85.0" prefWidth="1332.0" promptText="Характеристика" style="-fx-background-color: #18171a;">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnLeftArrow" layoutX="855.0" layoutY="673.0" mnemonicParsing="false" onMouseClicked="#btnLeftArrow" style="-fx-background-color: #18171a;">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ei_1708705780691-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="lbCount" layoutX="946.0" layoutY="684.0" prefHeight="38.0" prefWidth="0.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRightArrow" layoutX="1001.0" layoutY="673.0" mnemonicParsing="false" onMouseClicked="#btnRightArrow" style="-fx-background-color: #18171a;">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+               <image>
+                  <Image url="@ei_1708705780691-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="207.0" fitWidth="500.0" layoutX="1200.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.small_2x.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="207.0" fitWidth="264.0" layoutX="1649.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_20240513_162244.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="207.0" fitWidth="500.0" layoutX="331.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.small_2x.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="207.0" fitWidth="264.0" layoutX="-5.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@IMG_20240513_162244.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="896.0" layoutY="645.0" text="Количество" textFill="#838383">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbPathToImage" alignment="CENTER" layoutX="341.0" layoutY="451.0" prefHeight="77.0" prefWidth="1243.0" text="Выбранный путь" textFill="#7c7c7c" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="281.0" layoutY="383.0" prefHeight="17.0" prefWidth="529.0" style="-fx-background-color: #18171a;" />
+      <Label layoutX="271.0" layoutY="387.0" prefHeight="49.0" prefWidth="21.0" style="-fx-background-color: #18171a;" />
+      <Label layoutX="784.0" layoutY="418.0" prefHeight="49.0" prefWidth="41.0" style="-fx-background-color: #18171a;" />
+   </children>
+</AnchorPane>

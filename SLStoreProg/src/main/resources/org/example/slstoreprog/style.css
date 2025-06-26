@@ -1,0 +1,141 @@
+#btnImage{
+-fx-background-radius:50;
+}
+
+#adminRoot{
+-fx-background-color: white;
+}
+#adminCombo{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 1 0;
+}
+.combo-box > .arrow-button{
+-fx-background-color:#18171a;
+}
+.combo-box .text-field{
+-fx-text-fill:#878995;
+-fx-background-color: #18171a;
+-fx-border-color:#54586b;
+-fx-border-width: 2 2 2 2;
+}
+.combo-box .list-cell{
+-fx-text-fill:#878995;
+-fx-background-color:#18171a;
+}
+.combo-box .list-cell:hover{
+-fx-background-color:#2594f7;
+-fx-text-fill:black;
+}
+.combo-box .list-cell{
+-fx-font-size:15px;
+}
+.combo-box {
+-fx-font-size:15px;
+}
+.scroll-bar .thumb{
+-fx-background-color: #2f333d;
+-fx-pref-height: 10px;
+}
+#entry1{
+-fx-background-color: #ffffff;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#entry2{
+-fx-background-color: #ffffff;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#entry3{
+-fx-background-color: #ffffff;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#entry4{
+-fx-background-color: black;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#entryCharacteristic{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#btnSave{
+-fx-background-color:#2594f7;
+}
+#btnSave:armed{
+-fx-background-color:grey;
+}
+
+#btnPictureGadget{
+-fx-background-color:#2594f7;
+}
+#btnPictureGadget:armed{
+-fx-background-color:grey;
+}
+
+#btnUsers{
+-fx-text-fill:#878995;
+-fx-background-color:white;
+}
+#btnUsers:hover{
+-fx-background-color:grey;
+}
+#btnUsers:armed{
+-fx-background-color:grey;
+}
+#btnCloseAdminRoot{
+-fx-text-fill:#878995;
+-fx-background-color: #18171a;
+}
+#btnCloseAdminRoot:hover{
+-fx-background-color:#121214;
+}
+#btnCloseAdminRoot:armed{
+-fx-background-color:grey;
+}
+#GadgetsInBasket{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 2 2 2 2;
+-fx-border-radius:10;
+}
+#userTelNumber{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 2 2 2 2;
+-fx-border-radius:10;
+}
+#btnLogIn{
+-fx-background-color: #2594f7;
+-fx-background-radius:20;
+}
+.list-view:focused{
+-fx-background-color:white;
+}
+.list-cell:focused{
+-fx-background-color:white;
+}
+#nextImageAboutSl{
+-fx-background-color: #2594f7;
+}
+#nextImageAboutSl:hover{
+-fx-background-color: #18171a;
+}
+#backAboutSl{
+-fx-background-color: #2594f7;
+}
+#backAboutSl:hover{
+-fx-background-color: #18171a;
+}
+}

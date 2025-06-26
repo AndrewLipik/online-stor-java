@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1900.0" stylesheets="@../slstoreprog/style2.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.slstoreprog.PaymentController">
+   <children>
+      <Label alignment="CENTER" layoutX="-6.0" layoutY="7.0" prefHeight="1007.0" prefWidth="1908.0" style="-fx-background-color: #18171a;" AnchorPane.bottomAnchor="-14.0" AnchorPane.leftAnchor="-6.0" AnchorPane.rightAnchor="-2.0" />
+      <Label layoutX="-6.0" layoutY="-12.0" opacity="0.96" prefHeight="217.0" prefWidth="1908.0" style="-fx-background-color: black;" />
+      <ImageView fitHeight="176.0" fitWidth="356.0" layoutX="1695.0" layoutY="-36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@blue_iphone13promax_3.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="832.0" layoutY="62.0" prefHeight="58.0" prefWidth="185.0" text="Доставка" textFill="WHITE" AnchorPane.leftAnchor="800.0" AnchorPane.rightAnchor="800.0">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1080.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ei_1706776640816-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="106.0" layoutX="702.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_20240128_192624.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="159.0" layoutX="1536.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="205.0" AnchorPane.topAnchor="62.0">
+         <image>
+            <Image url="@ei_1706722194379-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="postOffices" editable="true" layoutX="1269.0" layoutY="416.0" opacity="0.0" prefHeight="47.0" prefWidth="461.0" promptText="Номер отделения почты" />
+      <Button id="btnClosePaymentRoot" fx:id="btnClosePaymentRoot" layoutX="820.0" layoutY="934.0" mnemonicParsing="false" onMouseClicked="#btnClosePaymentRoot" prefHeight="35.0" prefWidth="278.0" text="Закрыть" textFill="#5e5e5e" AnchorPane.leftAnchor="820.0" AnchorPane.rightAnchor="820.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbDelivery" layoutX="1265.0" layoutY="331.0" prefHeight="45.0" prefWidth="403.0" text="Курьер" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbTimeOne" alignment="CENTER" layoutX="1238.0" layoutY="713.0" prefHeight="47.0" prefWidth="188.0" text="Время" textFill="#5e5e5e" AnchorPane.topAnchor="713.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="882.0" layoutY="711.0" prefHeight="39.0" prefWidth="148.0" text="День месяца" textFill="#5e5e5e">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbDay" alignment="CENTER" layoutX="935.0" layoutY="762.0" prefHeight="35.0" prefWidth="32.0" text="0" textFill="#2594f7" AnchorPane.leftAnchor="935.0" AnchorPane.rightAnchor="923.0" AnchorPane.topAnchor="762.0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="335.0" prefHeight="348.0" prefWidth="499.0" style="-fx-background-color: black; -fx-background-radius: 20;" textAlignment="CENTER" />
+      <Button fx:id="bntNextDay" layoutX="1008.0" layoutY="753.0" mnemonicParsing="false" onMouseClicked="#bntNextDay" prefHeight="0.0" prefWidth="40.0" style="-fx-background-color: #18171a;" AnchorPane.topAnchor="753.0">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" rotate="-179.2">
+               <image>
+                  <Image url="@ei_1708705780691-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnBackDay" layoutX="852.0" layoutY="753.0" mnemonicParsing="false" onMouseClicked="#btnBackDay" rotate="180.0" style="-fx-background-color: #18171a;" AnchorPane.topAnchor="753.0">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" rotate="177.8">
+               <image>
+                  <Image url="@ei_1708705780691-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label alignment="CENTER" layoutX="537.0" layoutY="719.0" prefHeight="27.0" prefWidth="157.0" text="Месяц" textFill="#5e5e5e">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnDelivery" layoutX="931.0" layoutY="853.0" mnemonicParsing="false" onMouseClicked="#btnDelivery" prefHeight="47.0" prefWidth="309.0" style="-fx-background-color: #2594f7; -fx-background-radius: 10;" text="Заказать" textFill="WHITE" AnchorPane.leftAnchor="672.0" AnchorPane.rightAnchor="660.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBackMonth" layoutX="473.0" layoutY="753.0" mnemonicParsing="false" onMouseClicked="#btnBackMonth" prefHeight="35.0" prefWidth="40.0" style="-fx-background-color: #18171a;">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ei_1708705780691-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="bntNextMonth" layoutX="702.0" layoutY="753.0" mnemonicParsing="false" onMouseClicked="#bntNextMonth" prefHeight="35.0" prefWidth="40.0" style="-fx-background-color: #18171a;" AnchorPane.topAnchor="753.0">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+               <image>
+                  <Image url="@ei_1708705780691-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="lbMonth" alignment="CENTER" layoutX="537.0" layoutY="762.0" prefHeight="35.0" prefWidth="157.0" text="Сентябрь" textFill="#2594f7" AnchorPane.topAnchor="762.0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbTime" alignment="CENTER" contentDisplay="CENTER" layoutX="1262.0" layoutY="762.0" text=" 9:00-10:00" textFill="#2594f7" AnchorPane.topAnchor="762.0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBackTime" layoutX="1169.0" layoutY="750.0" mnemonicParsing="false" onMouseClicked="#btnBackTime" prefHeight="35.0" prefWidth="40.0" style="-fx-background-color: #18171a;" AnchorPane.topAnchor="753.0">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ei_1708705780691-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnNextTime" layoutX="1421.0" layoutY="750.0" mnemonicParsing="false" onMouseClicked="#btnNextTime" prefHeight="35.0" prefWidth="40.0" style="-fx-background-color: #18171a;" AnchorPane.topAnchor="753.0">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" rotate="179.0">
+               <image>
+                  <Image url="@ei_1708705780691-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="755.0" layoutY="485.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #18171a;" AnchorPane.topAnchor="485.0" />
+      <ImageView fx:id="imageInPayment" fitHeight="217.0" fitWidth="225.0" layoutX="349.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@blue_iphone13promax_2.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="98.0" layoutY="443.0" prefHeight="17.0" prefWidth="225.0" text="Ваш заказ" textAlignment="CENTER" textFill="#aeaeae">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbModelInPayment" alignment="CENTER" layoutX="98.0" layoutY="495.0" prefHeight="30.0" prefWidth="225.0" text="Model" textFill="#2594f7">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbPriceInPayment" alignment="CENTER_RIGHT" layoutX="106.0" layoutY="542.0" prefHeight="26.0" prefWidth="120.0" text="Price" textFill="#aeaeae">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="166.0" fitWidth="200.0" layoutX="1.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@blue_iphone13promax_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="416.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="400.0">
+         <image>
+            <Image url="@IMG_20241028_160001.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1351.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="400.0">
+         <image>
+            <Image url="@IMG_20241028_160001.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="176.0" fitWidth="356.0" layoutX="1725.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@iphone13_blue.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="159.0" layoutX="190.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="62.0">
+         <image>
+            <Image url="@ei_1706722194379-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="176.0" fitWidth="356.0" layoutX="-30.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@iphone13_blue.png" />
+         </image>
+      </ImageView>
+      <TextField id="entryCity" fx:id="entryCity" layoutX="1264.0" layoutY="414.0" prefHeight="50.0" prefWidth="200.0" promptText="Город">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="entryDistrict" layoutX="1512.0" layoutY="414.0" prefHeight="50.0" prefWidth="200.0" promptText="Район">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField id="entryStreet" fx:id="entryStreet" layoutX="1264.0" layoutY="497.0" prefHeight="50.0" prefWidth="484.0" promptText="Улица">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField id="entryFlat" fx:id="entryFlat" layoutX="1554.0" layoutY="593.0" prefHeight="50.0" prefWidth="260.0" promptText="Квартира">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField id="entryHouse" fx:id="entryHouse" layoutX="1264.0" layoutY="593.0" prefHeight="50.0" prefWidth="260.0" promptText="Дом">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnPostOffice" layoutX="769.0" layoutY="414.0" mnemonicParsing="false" onMouseClicked="#btnPostOffice" prefHeight="35.0" prefWidth="157.0" text="Почта" textFill="#757575">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDeliveryman" alignment="CENTER" layoutX="956.0" layoutY="414.0" mnemonicParsing="false" onMouseClicked="#btnDeliveryman" prefHeight="35.0" prefWidth="157.0" text="Курьер" textFill="#6f6f6f">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="825.0" layoutY="331.0" text="Способ доставки" textFill="WHITE" AnchorPane.leftAnchor="825.0" AnchorPane.rightAnchor="826.0">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="220.0" layoutY="542.0" prefHeight="26.0" prefWidth="34.0" text="\$" textFill="#aeaeae">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

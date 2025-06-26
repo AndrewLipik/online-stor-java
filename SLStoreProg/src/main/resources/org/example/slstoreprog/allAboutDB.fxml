@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1200.0" style="-fx-background-color: white;" stylesheets="@../slstoreprog/style2.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.slstoreprog.AllAboutDBController">
+   <children>
+      <Label layoutX="56.0" layoutY="19.0" prefHeight="462.0" prefWidth="1116.0" style="-fx-background-color: #18171a; -fx-background-radius: 20;" AnchorPane.leftAnchor="56.0" />
+      <ListView fx:id="lvDB" layoutX="253.0" layoutY="149.0" prefHeight="181.0" prefWidth="695.0" style="-fx-background-color: #18171a;" />
+      <Label layoutX="444.0" layoutY="21.0" text="Список устройств" textFill="#8a8a8a">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnDeleteGadget" layoutX="407.0" layoutY="358.0" mnemonicParsing="false" onMouseClicked="#btnDeleteGadget" prefHeight="38.0" prefWidth="170.0" style="-fx-background-color: #2594f7;" text="Удалить устройство" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Button id="btnCloseAboutDB" fx:id="btnCloseAboutDB" layoutX="523.0" layoutY="428.0" minHeight="20.0" mnemonicParsing="false" onMouseClicked="#btnCloseAboutDB" prefHeight="38.0" prefWidth="154.0" text="Закрыть">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUpdatePrice" layoutX="600.0" layoutY="358.0" mnemonicParsing="false" onMouseClicked="#btnUpdatePrice" prefHeight="38.0" prefWidth="170.0" style="-fx-background-color: #2594f7;" text="Изменить цену" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbSelected" layoutX="316.0" layoutY="89.0" prefHeight="26.0" prefWidth="84.0" text="Выбрано:" textFill="#8a8a8a">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="entryEditPrice" layoutX="850.0" layoutY="87.0" style="-fx-background-color: #18171a;">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <Label fx:id="lbEditPrice" alignment="CENTER_RIGHT" layoutX="651.0" layoutY="89.0" prefHeight="26.0" prefWidth="190.0" text="Дополнительно:" textFill="#8a8a8a">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbSelected2" layoutX="407.0" layoutY="88.0" prefHeight="27.0" prefWidth="190.0" textFill="#2594f7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

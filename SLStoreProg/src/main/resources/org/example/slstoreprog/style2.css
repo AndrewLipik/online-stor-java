@@ -1,0 +1,220 @@
+.combo-box > .arrow-button{
+-fx-padding:4;
+}
+.combo-box > .arrow-button{
+-fx-background-color:#18171a;
+}
+.combo-box .text-field{
+-fx-text-fill:#878995;
+-fx-background-color: #18171a;
+-fx-border-color: #5e5e5e;
+-fx-border-width: 2;
+}
+.combo-box .list-cell{
+-fx-text-fill:#878995;
+-fx-background-color:#18171a;
+}
+.combo-box .list-cell:focused{
+-fx-background-color:#161928;
+}
+.combo-box .list-cell:hover{
+-fx-background-color:#161928;
+}
+.combo-box .list-cell{
+-fx-font-size:15px;
+}
+.combo-box {
+-fx-font-size:15px;
+}
+.scroll-bar .thumb{
+-fx-background-color: #18171a;
+}
+.list-view:focused{
+-fx-background-color:#878995;
+}
+.list-cell:focused{
+-fx-background-color:#878995;
+}
+#btnSearchGadgets{
+-fx-background-color: #18171a;
+}
+#btnHome{
+-fx-background-color: #18171a;
+}
+#btnHome:hover{
+-fx-background-color:#121214;
+}
+#btnBasket{
+-fx-background-color: #18171a;
+}
+#btnBasket:hover{
+-fx-background-color:#121214;
+}
+#btnAboutUser{
+-fx-background-color: #18171a;
+}
+#btnAboutUser:hover{
+-fx-background-color:#121214;
+}
+#logEntry1{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#logEntry2{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#btnForgot{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+}
+#btnRemember{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+}
+#btnLoginRemember{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+}
+#signUpEntry1{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#signUpEntry2{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#signUpEntry3{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#signUpEntry4{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+#btnCloseLogRoot{
+-fx-background-color: #18171a;
+-fx-background-radius:10;
+-fx-text-fill:#878995;
+}
+#lbModelInGadget{
+-fx-background-color: #18171a;
+-fx-text-fill: #2594f7;
+-fx-border-color:#54586b;
+-fx-border-width: 2 2 2 2;
+-fx-border-radius:10;
+}
+#btnCloseError{
+-fx-background-color:#2594f7;
+}
+#btnCloseRootAboutGadget{
+-fx-background-color: #18171a;
+-fx-background-radius:20;
+}
+#btnCloseRootAboutGadget:hover{
+-fx-background-color:#121214;
+}
+#btnCloseInBasket{
+-fx-background-color: #18171a;
+-fx-background-radius:20;
+}
+#btnCloseInBasket:hover{
+-fx-background-color:#121214;
+}
+#btnClosePaymentRoot{
+-fx-background-color:#18171a;
+}
+#btnClosePaymentRoot:hover{
+-fx-background-color:#121214;
+}
+#btnCloseAboutDB{
+-fx-background-color:#18171a;
+}
+#btnCloseAboutDB:hover{
+-fx-background-color:#121214;
+}
+#entryEditPrice{
+-fx-text-fill: #2594f7;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+
+#btnSendEmail{
+-fx-background-color: #2594f7;
+-fx-text-fill: #fff;
+}
+
+#btnPostOffice{
+-fx-background-color: transparent;
+-fx-text-fill: #5e5e5e;
+-fx-border-color: #5e5e5e;
+-fx-border-width: 2;
+-fx-border-radius: 10
+}
+#btnDeliveryman{
+-fx-background-color: transparent;
+-fx-text-fill: #2594f7;
+-fx-border-color: #2594f7;
+-fx-border-width: 2;
+-fx-border-radius: 10
+}
+
+#entrySendEmail{
+-fx-background-color: #18171a;
+-fx-text-fill:#878995;
+-fx-border-color:#54586b;
+-fx-border-width: 0 0 2 0;
+}
+
+#entryCity{
+-fx-background-color: #18171a;
+-fx-border-color: #5e5e5e;
+-fx-text-fill: #c2c2c2;
+-fx-border-width: 2;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+}
+#entryDistrict{
+-fx-background-color: #18171a;
+-fx-border-color: #5e5e5e;
+-fx-text-fill: #c2c2c2;
+-fx-border-width: 2;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+}
+#entryStreet{
+-fx-background-color: #18171a;
+-fx-border-color: #5e5e5e;
+-fx-text-fill: #c2c2c2;
+-fx-border-width: 2;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+}
+#entryFlat{
+-fx-background-color: #18171a;
+-fx-border-color: #5e5e5e;
+-fx-text-fill: #c2c2c2;
+-fx-border-width: 2;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+}
+#entryHouse{
+-fx-background-color: #18171a;
+-fx-border-color: #5e5e5e;
+-fx-text-fill: #c2c2c2;
+-fx-border-width: 2;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+}

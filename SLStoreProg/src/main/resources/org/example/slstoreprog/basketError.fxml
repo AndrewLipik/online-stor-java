@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="815.0" prefWidth="1900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.slstoreprog.BasketError">
+   <children>
+      <Label alignment="CENTER" layoutX="54.0" layoutY="48.0" prefHeight="717.0" prefWidth="1700.0" style="-fx-background-color: #18171a; -fx-background-radius: 30;" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="607.0" layoutY="84.0" prefHeight="201.0" prefWidth="687.0" text="Вам необходимо войти в аккаунт" textFill="#4d4d4d">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBasketErrorLogIn" layoutX="750.0" layoutY="531.0" mnemonicParsing="false" onMouseClicked="#btnBasketErrorLogIn" prefHeight="62.0" prefWidth="400.0" style="-fx-background-color: #2594f7; -fx-background-radius: 10;" text="Войти в аккаунт" AnchorPane.leftAnchor="750.0" AnchorPane.rightAnchor="750.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <ImageView fitHeight="276.0" fitWidth="492.0" layoutX="715.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ei_1705822974519-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="89.0" layoutX="1317.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_20240128_191034.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

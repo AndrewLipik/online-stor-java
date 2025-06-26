@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="basketRoot" prefHeight="326.0" prefWidth="1850.0" stylesheets="@../slstoreprog/style2.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.slstoreprog.BasketWindow">
+   <children>
+      <ImageView fx:id="BasketImage" fitHeight="269.0" fitWidth="231.0" layoutX="82.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_20240204_134029.png" />
+         </image></ImageView>
+      <Label fx:id="lbPriceInBasket" layoutX="477.0" layoutY="99.0" prefHeight="42.0" prefWidth="288.0" text="0000" textFill="#878995">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Button fx:id="btnOpenBasket" layoutX="462.0" layoutY="177.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="288.0" style="-fx-background-color: #2594f7;" text="Открыть" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Label fx:id="lbModelInBasket" layoutX="477.0" layoutY="45.0" prefHeight="33.0" prefWidth="215.0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></Label>
+      <ImageView fitHeight="343.0" fitWidth="752.0" layoutX="1179.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-6.14764404296875" AnchorPane.rightAnchor="-81.0" AnchorPane.topAnchor="-6.0">
+         <image>
+            <Image url="@ei_1706769558492-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbAboutGadget" layoutX="787.0" layoutY="80.0" opacity="0.0" prefHeight="17.0" prefWidth="124.0" text="Label" />
+   </children>
+</AnchorPane>
